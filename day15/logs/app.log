@@ -1,0 +1,9 @@
+2026-07-31 16:49:12 | INFO     | logger_demo.py:50 | 访问了根路径
+2026-07-31 17:03:09 | INFO     | logger_demo.py:54 | 用户尝试登录：admin
+2026-07-31 17:03:09 | WARNING  | logger_demo.py:56 | 检测到管理员登录尝试
+2026-07-31 17:04:04 | ERROR    | logger_demo.py:64 | 发生除零异常
+Traceback (most recent call last):
+  File "D:\Code\AI_Learning\day15\logger_demo.py", line 62, in trigger_error
+    1/0
+    ~^~
+ZeroDivisionError: division by zero
